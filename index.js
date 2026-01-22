@@ -233,7 +233,7 @@ btnAgregar.addEventListener("click", async (e) => {
         tipoRegaloVirtual: selectQR.value || "",
         mensajeCaja: form.querySelector(".js-mensaje-caja").value.trim() || "",
         comentario : form.querySelector(".js-comentario")?.value || "",
-        regaloVirtual: form.querySelector(".js-comentario")?.value || ""
+        regaloVirtual: form.querySelector(".js-qr-extra")?.value || ""
       }
     ]
   };
