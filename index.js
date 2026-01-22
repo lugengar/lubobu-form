@@ -30,7 +30,7 @@ const form = document.querySelector(".js-product-variants.form-row");
 // === AGREGAMOS LOS NUEVOS CAMPOS ===
 form.innerHTML += `
 <div class="js-product-variants-group form-group col-12 text-center text-md-left mb-4 cara">
-<label class="form-label">Cara: <span class="js-insta-variation-label textofoto">Sin imagen</span></label>
+<label class="form-label">Cara <span style="color:red;">*</span>: <span class="js-insta-variation-label textofoto">Sin imagen</span></label>
 <input class="inputfoto" type="file" style="display:none;" />
 <button type="button" class="subirfoto js-insta-variant btn btn-variant">
   <span class="btn-variant-content">Seleccionar imagen</span>
@@ -38,7 +38,7 @@ form.innerHTML += `
 <div class="miniaturas-cara mt-2 d-flex gap-1"></div>
 </div>
 <div class="js-product-variants-group form-group col-12 mb-4 nombre-cliente">
-    <label class="form-label">Nombre del comprador <span style="color:red;">*</span>:</label>
+    <label class="form-label">Nombre del comprador <span style="color:red;">*</span></label>
     <input type="text" class="js-nombre-cliente form-control" placeholder="Nombre completo" required />
   </div>
 
