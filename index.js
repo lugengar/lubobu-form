@@ -186,7 +186,7 @@ function updatePrevisualizacion(){
     previsualizacionContainer.style.display = "block";
     previsualizacionContainer.innerHTML = `
       <a href="https://lubobu.com.ar/sorpresa/${tipoRegaloVirtual}/${encodeURIComponent(mensaje2)}" target="_blank">
-        Previsualizar regalo
+       Previsualizar regalo
       </a>
     `;
   } else {
